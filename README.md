@@ -1,87 +1,27 @@
-![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
+# ProjectAngularSuperwarsCss
 
-# ProGrad Lab | Superwars Stage 1
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Introduction
+## Development server
 
-Dustin and Lucus are best friends. They spend their weekends watching superhero series and playing superhero games. One Friday at school Mr.Hooper, their computer science faculty taught them HTML, CSS, and JavaScript. Dustin & Lucus realised they could build super cool super hero stuff using their knowledge. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-The subsequent weekend, they decided to do it. Lucus and Dustin are now all set to build something super cool.
+## Code scaffolding
 
-Lucus always loves protagonists like most of us. But Dustin is quite crazy, he likes antagonists. So they decided to collect a bunch of their favorite Super Heroes and Super Villains names along with their pictures. Did they tell you about the game that they are gonna build? 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Okay, let us explain. They are going to facilitate the ultimate war between Super Heroes and Super Villains. As they are new to these technologies, they need a **ProGrad** to help them build this game.
+## Build
 
-## Learning Goals
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-After this lesson, you will be able to:
+## Running unit tests
 
-- Create a static Angular application with Angular CLI.
-- Build an Angular application with one component.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Requirements
+## Running end-to-end tests
 
-- Fork this repo.
-- Clone this repo.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Submission
+## Further help
 
-Upon completion, run the following commands:
-
-```bash
-$ git add .
-$ git commit -m "done"
-$ git push origin master
-```
-
-Navigate to your repo and create a pull request from your master branch to the original repository's master branch.
-
-In the pull request name, add your Prograd id, name, and last name separated by a dash "-".
-
-## Deliverables
-
-You need to generate the starter code and fill it with the necessary code to satisfy the requirements described below.
-
-## Starter Code
-
-To generate the starter code, follow the steps given below
-
-- To create a new application,
-    - Open your ubuntu or cmd terminal and execute the following command
-      - ```ng new app-name```
-      - for example, ng new super-wars
-    - To create a new component, execute the command 
-      - ``` ng generate component component-name```
-      - example, ng generate component contacts
-      
-## How to run
-
-- To run the project go to your ubuntu terminal or VScode editor
-    - open the ubuntu or cmd terminal or inside the vscode editor
-    - run the command following command
-    - ```ng serve --open or ng serve -o```
-
-### Progression : Build the arena & have the players ready
-
-1. Go to src/app.component.html document.
-2. Inside the app.component.css, using `CSS Grid`, create 3 columns one each for Heroes, score and Villains in same order. Try to make it responsive and find the right size for each grid.
-3. Add players to the left and right grids. Use the middle grid to showcase the scores.
-4. Style the general elements in `src/style.css`.
-5. Add component specific to styles to app.component.css
-
-### Conditions
-
-Your output should adhere to the following conditions.
-* Heroes should be on your left grid and Villains on the right grid.
-* Heroes should be justified to the right and Villains to the left.
-* Each player should have an image, name and strength (Number). The images of the super heroes are provided in the "src/assets" folder.
-* Name and strength should be center aligned.
-* Make the players equally spaced apart.
-
-### Expected Output
-Your final output should look like this
-
-![Superwar](https://github.com/FACEPrep-ProGrad/project-11-superwars-css/raw/master/doc/superwars-css.png)
-
-
-Happy Coding ProGrad ❤️
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
